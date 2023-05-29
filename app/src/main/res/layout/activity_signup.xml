@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/primaryColor"
-    tools:context=".SignupActivity">
+    tools:context=".Activity.SignupActivity">
 
     <ImageView
         android:id="@+id/btn_back"
@@ -66,7 +66,6 @@
         android:textSize="18dp"
         android:fontFamily="sans-serif-medium"
         android:hint="Email"
-        android:inputType="textPassword"
         android:paddingLeft="20dp"/>
 
     <EditText

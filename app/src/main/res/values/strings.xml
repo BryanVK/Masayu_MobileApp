@@ -69,4 +69,17 @@
         <item>Rp.45.000</item>
     </string-array>
 
+    <string-array name="data_RecomendationDistance">
+        <item>0.1 Km</item>
+        <item>0.1 Km</item>
+        <item>0.2 Km</item>
+        <item>0.2 Km</item>
+        <item>0.2 Km</item>
+        <item>0.3 Km</item>
+        <item>0.3 Km</item>
+        <item>0.4 Km</item>
+        <item>0.4 Km</item>
+        <item>0.5 Km</item>
+    </string-array>
+
 </resources>

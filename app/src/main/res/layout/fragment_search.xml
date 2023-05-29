@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SearchFragment">
+    tools:context=".Fragment.SearchFragment">
 
     <LinearLayout
         android:id="@+id/profile"
@@ -47,6 +47,7 @@
             android:layout_marginTop="10dp"
             />
 
+
         <androidx.recyclerview.widget.RecyclerView
             android:layout_alignParentTop="true"
             android:layout_above="@id/menuNav"
@@ -55,7 +56,32 @@
             android:layout_marginTop="5dp"
             android:scrollbars="none"
             android:id="@+id/rvCategory"/>
+
+
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/listFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food List"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/foodCategory"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/listFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:scrollbars="none"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/rvFood"/>
 
 
 </LinearLayout>

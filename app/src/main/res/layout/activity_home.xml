@@ -5,7 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/relativeParent"
+<<<<<<< HEAD
     tools:context=".HomeActivity">
+=======
+    tools:context=".Activity.HomeActivity">
+>>>>>>> 5090e0d (Initial commit)
 
     <FrameLayout
         android:layout_width="match_parent"

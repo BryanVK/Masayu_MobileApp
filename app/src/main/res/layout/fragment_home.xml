@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".HomeFragment">
+    tools:context=".Fragment.HomeFragment">
 
     <!--    <androidx.recyclerview.widget.RecyclerView-->
     <!--        android:layout_alignParentTop="true"-->
@@ -27,12 +27,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hi, Bryan!"
+            android:text="WELCOME !"
             android:background="@color/primaryColor"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:fontFamily="sans-serif-black"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="20dp"
             android:layout_marginLeft="35dp"
             />
 
@@ -42,8 +42,8 @@
             android:layout_height="40dp"
             android:layout_marginLeft="35dp"
             android:layout_marginRight="35dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
             android:background="@drawable/input_shape"
             android:textColorHint="@color/gray"
             android:textSize="15sp"
@@ -70,7 +70,7 @@
             android:textColor="@color/black"
             android:textSize="16dp"
             android:layout_marginLeft="35dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:layout_below="@id/profile"
             />
 
@@ -92,7 +92,7 @@
             android:textColor="@color/black"
             android:textSize="16dp"
             android:layout_marginLeft="35dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="50dp"
             android:layout_below="@id/foodCategory"
             />
 
@@ -102,7 +102,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:scrollbars="horizontal"
+            android:scrollbars="none"
             android:id="@+id/rvRecomendation"/>
 
     </LinearLayout>

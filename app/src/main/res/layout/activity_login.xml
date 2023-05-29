@@ -6,7 +6,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/primaryColor"
+<<<<<<< HEAD
     tools:context=".LoginActivity">
+=======
+    tools:context=".Activity.LoginActivity">
+>>>>>>> 5090e0d (Initial commit)
 
     <ImageView
         android:id="@+id/btn_back"
