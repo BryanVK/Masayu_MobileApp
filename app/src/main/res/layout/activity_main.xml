@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="101dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/jargon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LET THEM COOK"
+        android:layout_below="@id/logo"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="130dp"
+        />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jargon"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="90dp"
+        android:paddingRight="90dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Fresh ingredient and recipe delivery service that helps chefs of all levels cook incredible meals at home."
+        android:textColor="@color/white"
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:hint="GET STARTED"
+        android:layout_marginTop="300dp"
+        android:width="330dp"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="@color/secondaryColor"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-black"
+        android:background="@drawable/button_shape"/>
+
+
+
+
+</RelativeLayout>

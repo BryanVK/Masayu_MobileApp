@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <!--    <androidx.recyclerview.widget.RecyclerView-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_above="@id/menuNav"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="150dp"-->
+    <!--        android:scrollbars="horizontal"-->
+    <!--        android:id="@+id/rvCategory"/>-->
+
+
+    <LinearLayout
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hi, Bryan!"
+            android:background="@color/primaryColor"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="35dp"
+            />
+
+        <EditText
+            android:id="@+id/edt_search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/input_shape"
+            android:textColorHint="@color/gray"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-medium"
+            android:hint="Search for food"
+            android:inputType="text"
+            android:paddingLeft="20dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/foodCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food Category"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/profile"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_alignParentTop="true"
+            android:layout_above="@id/menuNav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:scrollbars="none"
+            android:id="@+id/rvCategory"/>
+
+        <TextView
+            android:id="@+id/recomended"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recommended for you"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/foodCategory"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_alignParentTop="true"
+            android:layout_above="@id/recomended"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:scrollbars="horizontal"
+            android:id="@+id/rvRecomendation"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

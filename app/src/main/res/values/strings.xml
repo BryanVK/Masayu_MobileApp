@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Masayu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="data_categoryImg">
+        <item>@drawable/photo1</item>
+        <item>@drawable/photo2</item>
+        <item>@drawable/photo3</item>
+        <item>@drawable/photo4</item>
+        <item>@drawable/photo5</item>
+        <item>@drawable/photo1</item>
+        <item>@drawable/photo2</item>
+        <item>@drawable/photo3</item>
+        <item>@drawable/photo4</item>
+        <item>@drawable/photo5</item>
+    </string-array>
+
+    <string-array name="data_categoryName">
+        <item>Sunda</item>
+        <item>Betawi</item>
+        <item>Madura</item>
+        <item>Padang</item>
+        <item>Purwakarta</item>
+        <item>Sunda</item>
+        <item>Betawi</item>
+        <item>Madura</item>
+        <item>Padang</item>
+        <item>Purwakarta</item>
+    </string-array>
+
+
+    <string-array name="data_RecomendationImg">
+        <item>@drawable/photo1</item>
+        <item>@drawable/photo2</item>
+        <item>@drawable/photo3</item>
+        <item>@drawable/photo4</item>
+        <item>@drawable/photo5</item>
+        <item>@drawable/photo1</item>
+        <item>@drawable/photo2</item>
+        <item>@drawable/photo3</item>
+        <item>@drawable/photo4</item>
+        <item>@drawable/photo5</item>
+    </string-array>
+
+    <string-array name="data_RekomendationName">
+        <item>Nasi Padang</item>
+        <item>Sate Maranggi</item>
+        <item>Sate Madura</item>
+        <item>Sate Padang</item>
+        <item>Ayam Purwakarta</item>
+        <item>Gudeg Jawa</item>
+        <item>Soto Betawi</item>
+        <item>Bebek Madura</item>
+        <item>Nasi Kapau</item>
+        <item>Nasi Uduk</item>
+    </string-array>
+
+    <string-array name="data_price">
+        <item>Rp.12.000</item>
+        <item>Rp.22.000</item>
+        <item>Rp.30.000</item>
+        <item>Rp.15.000</item>
+        <item>Rp.10.000</item>
+        <item>Rp.15.000</item>
+        <item>Rp.25.000</item>
+        <item>Rp.50.000</item>
+        <item>Rp.32.000</item>
+        <item>Rp.45.000</item>
+    </string-array>
+
+</resources>

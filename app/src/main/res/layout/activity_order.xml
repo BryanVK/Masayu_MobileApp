@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivery to location"
+            android:background="@color/primaryColor"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            />
+
+        <EditText
+            android:id="@+id/edt_location"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/input_shape"
+            android:textColorHint="@color/gray"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-medium"
+            android:hint="Search for loaction"
+            android:inputType="text"
+            android:paddingLeft="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:background="@color/primaryColor"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:fontFamily="sans-serif"
+                android:text="Payment method"
+                android:textColor="@color/white"
+                android:textColorHint="@color/secondaryColor"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tv_payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:gravity="right"
+                android:fontFamily="sans-serif-black"
+                android:text="Cash"
+                android:textColor="@color/white"
+                android:textColorHint="@color/secondaryColor"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_order"
+            android:layout_width="330dp"
+            android:layout_height="49dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:width="320dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="sans-serif-black"
+            android:hint="ORDER"
+            android:textColorHint="@color/secondaryColor"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+</RelativeLayout>
