@@ -54,7 +54,7 @@ public class OrderActivity extends AppCompatActivity {
         rvCart.setAdapter(adapterCart);
         rvCart.setLayoutManager(new LinearLayoutManager(this));
 
-        btnLocation = findViewById(R.id.btn_location);
+        btnLocation = findViewById(R.id.edt_location);
         btnBack = findViewById(R.id.btn_back);
         btnOrder = findViewById(R.id.btn_order);
 

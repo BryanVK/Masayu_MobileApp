@@ -34,7 +34,7 @@
             android:layout_marginLeft="35dp"
             />
 
-        <EditText
+        <Button
             android:id="@+id/edt_location"
             android:layout_width="match_parent"
             android:layout_height="40dp"
@@ -45,12 +45,24 @@
             android:background="@drawable/input_shape"
             android:textColorHint="@color/gray"
             android:textSize="15sp"
+            android:gravity="left"
             android:fontFamily="sans-serif-medium"
             android:hint="Search for loaction"
             android:inputType="text"
             android:paddingLeft="20dp"/>
 
+
     </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="167dp"
+        android:layout_marginBottom="-273dp"
+        android:scrollbars="none" />
 
     <LinearLayout
         android:layout_alignParentBottom="true"
